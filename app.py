@@ -31,5 +31,6 @@ async def recommend_books(title: str):
     cosine_sim = cosine_similarity(features[book_index], features).flatten()
     similar_books = cosine_sim.argsort()[-6:-1][::-1]
     recommendations = df.iloc[similar_books][['title', 'authors']].to_dict(orient='records')
+    print("Adi github Test")
     return {"recommendations": recommendations}
-    
+
