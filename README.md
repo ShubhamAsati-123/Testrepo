@@ -4,10 +4,10 @@ A FastAPI-based book recommendation system that suggests similar books based on 
 
 ## Features
 
-- Recommends 5 similar books based on the input title
-- Uses combined title and author information for better recommendations
-- Handles case sensitivity and minor typos through text normalization
-- Efficient TF-IDF vectorization for text similarity comparison
+- Recommends 5 similar books based on the input title.
+- Uses combined title and author information for better recommendations.
+- Handles case sensitivity and minor typos through text normalization.
+- Efficient TF-IDF vectorization for text similarity comparison.
 
 ## Prerequisites
 
