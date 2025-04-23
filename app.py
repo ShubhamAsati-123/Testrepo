@@ -32,3 +32,4 @@ async def recommend_books(title: str):
     similar_books = cosine_sim.argsort()[-6:-1][::-1]
     recommendations = df.iloc[similar_books][['title', 'authors']].to_dict(orient='records')
     return {"recommendations": recommendations}
+    
